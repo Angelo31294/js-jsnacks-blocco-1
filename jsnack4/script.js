@@ -1,14 +1,14 @@
 // In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
 
-const nomeUtente = prompt("inserisci il tuo nome");
-
 const nomiacept = ["Angelo", "Francesco", "Samuele"];
+
+const nomeUtente = prompt("inserisci il tuo nome");
 
 let element = false;
 
 for (let i = 0; i < nomiacept.length; i++) {
     
-    if(nomeUtente === nomiacept){
+    if(nomeUtente === nomiacept[i]){
         element = true;
     }
 }
